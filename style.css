@@ -416,7 +416,24 @@ section h2 {
 
 .contact-buttons {
 
+    display: flex;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
     margin-top: 25px;
+
+}
+
+
+.email-address {
+
+    margin-top: 18px;
+
+    color: #888894;
+
+    font-size: 15px;
 
 }
 
@@ -436,7 +453,7 @@ footer {
 }
 
 
-/* ================= MOBILE ================= */
+/* ================= TABLET ================= */
 
 @media (max-width: 800px) {
 
@@ -448,6 +465,8 @@ footer {
 
 }
 
+
+/* ================= MOBILE ================= */
 
 @media (max-width: 600px) {
 
